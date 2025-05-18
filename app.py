@@ -2,7 +2,8 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
+
 
 load_dotenv()  # loads .env file with your API key
 
